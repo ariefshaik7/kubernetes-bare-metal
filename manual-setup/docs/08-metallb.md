@@ -282,4 +282,4 @@ lb-test   LoadBalancer   10.96.12.34   10.47.160.200
 
 
 ---
-Next: [07 – Application Routing (Envoy Gateway – Layer 7)](09-gateway-api.md)
+Next: [09 – Application Routing (Envoy Gateway – Layer 7)](09-gateway-api.md)
