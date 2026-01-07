@@ -31,10 +31,10 @@ This cluster uses a **stacked etcd topology** with **three control plane nodes**
   - Optimized for bare-metal and VM-based environments
 
 - **Networking & Traffic Management**
-  **Layer 4:** 
-    -  **Kube-VIP**: Kubernetes API Virtual IP
-    - **MetalLB (L2)**: Service `LoadBalancer` IPs
-  - **Layer 7:** Envoy Gateway using Kubernetes Gateway API for HTTP routing
+  - **API Load Balancing:** Kube-VIP (ARP mode) **or** HAProxy (choose one path)
+  - **Service Load Balancing:** MetalLB (L2 mode) for `Service.type=LoadBalancer`
+  - **Application Routing (L7):** Envoy Gateway using Kubernetes Gateway API
+
 
 ---
 
