@@ -77,3 +77,4 @@ This repository is designed to be **architecture-first**, not resource-heavy.
 
 ---
 
+> Start with: **[01 – Prerequisites](manual-setup/docs/01-prerequisites.md)**
